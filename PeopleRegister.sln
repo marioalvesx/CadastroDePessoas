@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleRegister", "PeopleRegister\PeopleRegister.csproj", "{22567AC4-1362-498F-A50D-927FFFC6D278}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22567AC4-1362-498F-A50D-927FFFC6D278}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22567AC4-1362-498F-A50D-927FFFC6D278}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22567AC4-1362-498F-A50D-927FFFC6D278}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22567AC4-1362-498F-A50D-927FFFC6D278}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {607FFAF9-897B-4E46-84E1-F09CC24A9197}
+	EndGlobalSection
+EndGlobal
