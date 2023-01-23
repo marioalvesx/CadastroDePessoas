@@ -1,4 +1,5 @@
-﻿using PeopleRegister.Models;
+﻿using Microsoft.Reporting.WinForms;
+using PeopleRegister.Models;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -111,6 +112,6 @@ namespace PeopleRegister.Repositories
                 }
             }
             return peopleList;
-        }
+        }        
     }
 }

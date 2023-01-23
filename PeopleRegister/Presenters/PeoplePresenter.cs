@@ -2,6 +2,7 @@
 using PeopleRegister.Views;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,6 +15,7 @@ namespace PeopleRegister.Presenters
         private IPeopleRepository repository;
         private BindingSource peopleBindingSource;
         private IEnumerable<People> peopleList;
+        private DataTable peopleListReport;
 
         public PeoplePresenter(IPeopleView view, IPeopleRepository repository)
         {
@@ -26,7 +28,7 @@ namespace PeopleRegister.Presenters
             this.view.EditEvent += LoadSelectedPeopleToEdit;
             this.view.DeleteEvent += DeleteSelectedPeople;
             this.view.SaveEvent += SavePeople;
-            this.view.CancelEvent += CancelAction;
+            this.view.CancelEvent += CancelAction;            
 
             this.view.SetPeopleListBindingSource(peopleBindingSource);
             LoadAllPeopleList();
@@ -126,5 +128,7 @@ namespace PeopleRegister.Presenters
                 throw;
             }
         }
+
+
     }
 }

@@ -19,7 +19,6 @@ namespace PeopleRegister.Views
         public PeopleView()
         {
             InitializeComponent();
-
             AssociateAndRaiseViewEvents();
             tabControl1.TabPages.Remove(tabPage2);
         }
@@ -79,6 +78,15 @@ namespace PeopleRegister.Views
                 tabControl1.TabPages.Remove(tabPage2);
                 tabControl1.TabPages.Add(tabPage1);
             };
+            // Generate report
+            btnReport.Click += delegate
+            {
+                CallReportEvent?.Invoke(this, EventArgs.Empty);
+                using (var frm = new PeopleFormReport())
+                {
+                    frm.ShowDialog();
+                }
+            };
 
         }
 
@@ -125,6 +133,7 @@ namespace PeopleRegister.Views
         public event EventHandler DeleteEvent;
         public event EventHandler SaveEvent;
         public event EventHandler CancelEvent;
+        public event EventHandler CallReportEvent;
 
         public void SetPeopleListBindingSource(BindingSource peopleList)
         {

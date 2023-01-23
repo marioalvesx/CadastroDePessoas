@@ -33,6 +33,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.btnReport = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnEdit = new System.Windows.Forms.Button();
@@ -89,6 +90,7 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.btnReport);
             this.tabPage1.Controls.Add(this.dataGridView1);
             this.tabPage1.Controls.Add(this.btnDelete);
             this.tabPage1.Controls.Add(this.btnEdit);
@@ -104,10 +106,19 @@
             this.tabPage1.Text = "FrmPrincipal";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
+            // btnReport
+            // 
+            this.btnReport.Location = new System.Drawing.Point(511, 221);
+            this.btnReport.Name = "btnReport";
+            this.btnReport.Size = new System.Drawing.Size(216, 29);
+            this.btnReport.TabIndex = 8;
+            this.btnReport.Text = "Relatório";
+            this.btnReport.UseVisualStyleBackColor = true;
+            // 
             // dataGridView1
             // 
             this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -296,5 +307,6 @@
         private BindingSource peoplePresenterBindingSource;
         private DataGridView dataGridView1;
         private TextBox txtPeopleId;
+        private Button btnReport;
     }
 }

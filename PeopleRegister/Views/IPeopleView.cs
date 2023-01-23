@@ -23,6 +23,7 @@ namespace PeopleRegister.Views
         event EventHandler DeleteEvent;
         event EventHandler SaveEvent;
         event EventHandler CancelEvent;
+        event EventHandler CallReportEvent;
 
         void SetPeopleListBindingSource(BindingSource peopleList);
         void Show();
