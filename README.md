@@ -1,11 +1,9 @@
 <h1 align="center"> 🛠️ Aplicação para cadastro de pessoas </h1>
-
+Esta é uma aplicação proposta como desafio para participação no processo seletivo
+da empresa <b>Via Aroma</b> na vaga como desenvolvedor C#.
 <hr />
 
 ## 🔍 Sobre
-Esta é uma aplicação proposta como desafio para participação no processo seletivo
-da empresa **Via Aroma** na vaga como desenvolvedor C#.
-
 Essa aplicação foi desenvolvida no Visual Studio Community com base nas boas práticas de programação do padrão de arquitetura **MVP (Model-View-Presenter)**.
 Esse é um padrão de arquitetura especialmente indicado para aplicações utilizando Windows Forms que lida com conceitos como DIP (Inversão de dependência), Clean code e DDD.
 
