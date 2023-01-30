@@ -1,5 +1,7 @@
 <h1 align="center"> 🛠️ Aplicação para cadastro de pessoas </h1>
 
+<hr />
+
 ## 🔍 Sobre
 Esta é uma aplicação proposta como desafio para participação no processo seletivo
 da empresa **Via Aroma** na vaga como desenvolvedor C#.
